@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    height: 100%
+}
+
+p {
+    color: grey;
+    line-height: 2vh;
+}
+body {
+    background: black;
+    font-family:"Source Code Pro";
+}
+
+h1 {
+    color: #26ff26;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #15ff15;
+    background-color: black;
+    background-clip: padding-box;
+    border: 1px solid #0dff0d;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+color: #15ff15;
+border: 1px solid #00FF00 !important;
+background-color: black;
+}
+
+#heading {
+    text-transform: uppercase;
+    color: #bfbfbf;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset {
+    background: #00000085;
+    color: #00FF00;
+    border: 0 none;
+    border-radius: 1rem;
+    box-sizing: var(--neon-border-color);
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-card {
+    margin: 20px !important;
+    text-align: left;
+}
+
+.form-bbb {
+    display: block;
+    vertical-align: middle;
+    margin-left: 25%;
+    margin-bottom: -20px;
+    margin-right: 25%
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+label {
+    margin-bottom: 2px !important;
+}
+
+#msform input,
+#msform textarea {
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #00FF00;
+    border-radius: 0px;
+    /*margin-bottom: 25px;
+    margin-top: 2px;*/
+/*    width: 100%;*/
+    box-sizing: border-box;
+    font-family: "Source Code Pro";
+    color: #00FF00;
+    background-color: black;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00FF00;
+    outline-width: 0
+}
+
+.form-control:focus {
+    color: #00FF00;
+}
+
+#msform .action-button {
+    transition: 0.8s;
+    font-family: "Source Code Pro";
+    width: 100px;
+    background: transparent;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 20px 10px 20px;
+    float: right;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    background-color: #00FF00;
+    color:black;
+}
+
+#msform .action-button-previous {
+    transition: 0.8s;
+    font-family: "Source Code Pro";
+    width: 100px;
+    background: transparent;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 20px 10px 20px;
+    float: left;
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    background-color: #00ff00;
+    color: black;
+}
+
+.card {
+    z-index: 0;
+    border: 1px solid #00FF00;
+    position: relative
+}
+
+.fs-title {
+    font-size: 18px;
+    color: #00FF00;
+    margin-bottom: 0px;
+    font-weight: normal;
+    text-align: left
+}
+
+.purple-text {
+    color: #54a1e2;
+    font-weight: normal
+}
+
+.steps {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right;
+    color: #00FF00;
+}
+
+.fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: black;
+}
+
+#progressbar .active {
+    color: #00FF00;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 13px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f066"
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f0e7"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f013"
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f058"
+}
+
+#progressbar li:before {
+    width: 50px;
+    height: 28px;
+    line-height: 45px;
+    display: block;
+    font-size: 18px;
+/*    color: #00FF00;*/
+    background: black;
+    border-radius: 50%;
+/*    margin: 0 auto 10px auto;*/
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before {
+    background: black;
+}
+#progressbar li.active:after {
+    background: #00FF00;
+}
+
+.progress {
+/*    height: 20px*/
+background-color: red !important;
+border-radius: 0px;
+}
+
+.progress-bar {
+    background-color: #00FF00;
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.card {
+    background-color: #00000085;
+}
+
+p {
+    color: #00ff00;
+}
+
+.anonims {
+    width: 100px;
+    height: 100px;
+}
+
+.btn-hacker {
+    background: #54a1e2;
+    color: black;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+:root {
+    font-size: 10px;
+    --neon-text-color: #f40;
+    --neon-border-color: #08f;
+}
+
+.cheatx {
+    width: 300px;
+    font-family: "Source Code Pro";;
+    color: #00FF00;
+    font-size: 18px;
+/*    margin-top: 3vh;*/
+    width: 95%;
+    /* ou 30em*/
+    white-space: nowrap;
+    overflow: hidden;
+/*    font-weight: 700;*/
+    animation: linha1 4s steps(50, end);
+}
+
+.cheatx:nth-child(2) {
+    font-size: 2rem;
+    width: 300px;
+    animation: linha2 4s steps(50, end);
+}
+
+.cheatx .boldel {
+    animation: pisca 1s infinite;
+}
+
+@keyframes linha1 {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes linha2 {
+    0% {
+        width: 0;
+    }
+    25% {
+        width: 0;
+    }
+    100% {
+        width: 100;
+    }
+}
+
+@keyframes pisca {
+    to {
+        opacity: 0%;
+    }
+}
+
+.gright {
+    font-size: 1rem;
+    color: #ffffff;
+    list-style-type: none
+}
+
+.register-button {
+    margin: 20px
+}
+
+.login-button {
+    padding-top: 10px
+}
