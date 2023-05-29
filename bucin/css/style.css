@@ -142,8 +142,8 @@ label {
     font-family: "Source Code Pro";
     width: 100px;
     background: transparent;
-    color: #00ff00;
-    border: 1px solid #00ff00;
+    color: #7902a5;
+    border: 1px solid #7902a5;
     border-radius: 0px;
     cursor: pointer;
     padding: 10px 5px;
@@ -153,7 +153,7 @@ label {
 
 #msform .action-button-previous:hover,
 #msform .action-button-previous:focus {
-    background-color: #00ff00;
+    background-color: #7902a5;
     color: black;
 }
 
@@ -280,7 +280,7 @@ border-radius: 0px;
 }
 
 p {
-    color: #00ff00;
+    color: #7902a5;
 }
 
 .anonims {
