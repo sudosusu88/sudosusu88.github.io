@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-    color: #26ff26;
+    color: #f7941d;
 }
 
 .form-control {
@@ -28,17 +28,17 @@ h1 {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #15ff15;
+    color: #f7941d;
     background-color: black;
     background-clip: padding-box;
-    border: 1px solid #0dff0d;
+    border: 1px solid #f7941d;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .form-control:focus {
-color: #15ff15;
-border: 1px solid #00FF00 !important;
+color: #f7941d;
+border: 1px solid #f7941d !important;
 background-color: black;
 }
 
@@ -58,7 +58,7 @@ background-color: black;
 
 #msform fieldset {
     background: #00000085;
-    color: #00FF00;
+    color: #f7941d;
     border: 0 none;
     border-radius: 1rem;
     box-sizing: var(--neon-border-color);
@@ -92,14 +92,14 @@ label {
 #msform input,
 #msform textarea {
     padding: 8px 15px 8px 15px;
-    border: 1px solid #00FF00;
+    border: 1px solid #f7941d;
     border-radius: 0px;
     /*margin-bottom: 25px;
     margin-top: 2px;*/
 /*    width: 100%;*/
     box-sizing: border-box;
     font-family: "Source Code Pro";
-    color: #00FF00;
+    color: #f7941d;
     background-color: black;
     font-size: 16px;
     letter-spacing: 1px
@@ -110,12 +110,12 @@ label {
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    border: 1px solid #00FF00;
+    border: 1px solid #f7941d;
     outline-width: 0
 }
 
 .form-control:focus {
-    color: #00FF00;
+    color: #f7941d;
 }
 
 #msform .action-button {
@@ -123,8 +123,8 @@ label {
     font-family: "Source Code Pro";
     width: 100px;
     background: transparent;
-    color: #00FF00;
-    border: 1px solid #00FF00;
+    color: #f7941d;
+    border: 1px solid #f7941d;
     cursor: pointer;
     padding: 10px 5px;
     margin: 10px 20px 10px 20px;
@@ -133,7 +133,7 @@ label {
 
 #msform .action-button:hover,
 #msform .action-button:focus {
-    background-color: #00FF00;
+    background-color: #f7941d;
     color:black;
 }
 
@@ -142,8 +142,8 @@ label {
     font-family: "Source Code Pro";
     width: 100px;
     background: transparent;
-    color: #00ff00;
-    border: 1px solid #00ff00;
+    color: #f7941d;
+    border: 1px solid #f7941d;
     border-radius: 0px;
     cursor: pointer;
     padding: 10px 5px;
@@ -153,19 +153,19 @@ label {
 
 #msform .action-button-previous:hover,
 #msform .action-button-previous:focus {
-    background-color: #00ff00;
+    background-color: #f7941d;
     color: black;
 }
 
 .card {
     z-index: 0;
-    border: 1px solid #00FF00;
+    border: 1px solid #f7941d;
     position: relative
 }
 
 .fs-title {
     font-size: 18px;
-    color: #00FF00;
+    color: #f7941d;
     margin-bottom: 0px;
     font-weight: normal;
     text-align: left
@@ -182,7 +182,7 @@ label {
     margin-bottom: 10px;
     font-weight: normal;
     text-align: right;
-    color: #00FF00;
+    color: #f7941d;
 }
 
 .fieldlabels {
@@ -197,7 +197,7 @@ label {
 }
 
 #progressbar .active {
-    color: #00FF00;
+    color: #f7941d;
 }
 
 #progressbar li {
@@ -235,7 +235,7 @@ label {
     line-height: 45px;
     display: block;
     font-size: 18px;
-/*    color: #00FF00;*/
+/*    color: #f7941d;*/
     background: black;
     border-radius: 50%;
 /*    margin: 0 auto 10px auto;*/
@@ -257,7 +257,7 @@ label {
     background: black;
 }
 #progressbar li.active:after {
-    background: #00FF00;
+    background: #f7941d;
 }
 
 .progress {
@@ -267,7 +267,7 @@ border-radius: 0px;
 }
 
 .progress-bar {
-    background-color: #00FF00;
+    background-color: #f7941d;
 }
 
 .fit-image {
@@ -280,7 +280,7 @@ border-radius: 0px;
 }
 
 p {
-    color: #00ff00;
+    color: #f7941d;
 }
 
 .anonims {
@@ -303,7 +303,7 @@ p {
 .cheatx {
     width: 300px;
     font-family: "Source Code Pro";;
-    color: #00FF00;
+    color: #f7941d;
     font-size: 18px;
 /*    margin-top: 3vh;*/
     width: 95%;
