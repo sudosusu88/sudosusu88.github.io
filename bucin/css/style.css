@@ -31,7 +31,7 @@ h1 {
     color: #7902a5;
     background-color: black;
     background-clip: padding-box;
-    border: 1px solid #0dff0d;
+    border: 1px solid #7902a5;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
